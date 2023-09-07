@@ -1,0 +1,207 @@
+body {
+    font-family: 'Montserrat' sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* container */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* sections */
+
+.coloured-section {
+    background-color: #ADE498;
+    color: #fff;
+}
+
+.white-secttion {
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-White', sans-serif;
+}
+
+/* Download buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+
+#title .container-fluid {
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-img {
+    width: 70%;
+    height: auto;
+    padding-left: 20%;
+}
+
+/* features icons */
+
+.icon {
+    color: #ADE498;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #7FDBDA;
+}
+
+/* features section */
+
+.feature-box {
+    padding: 2%;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+#features {
+    background-color: #fff;
+    position: relative;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #7FDBDA;
+}
+
+.testimonial-heading {
+    color: #ADE498;
+    padding: 7%;
+}
+
+.testimonial-text {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 500;
+    color: white;
+    font-size: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.testimonial-img {
+    margin-top: 10%;
+    height: 50%;
+    border-radius: 20%;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.form-container{
+    background-color: #ADE498;
+    padding: 10%;
+    border-radius: 20px;
+}
+
+.form-img{
+    width: 80%;
+    border-radius: 20%;
+}
+
+form{
+    text-align: left;
+}
+
+.form-group{
+    margin: auto;
+    width: 80%;
+    padding: 2%;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Montserrat-White', sans-serif;
+}
+
+.form-control{
+    margin-top: 2%;
+    border-radius: 20px;
+    border: none;
+}
+
+.submit-btn{
+    position: relative;
+    margin-left: 12%;
+}
+
+/* cta */
+
+#cta{
+    background-color: #7FDBDA;
+}
+
+.contact{
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}

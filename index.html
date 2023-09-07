@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>FurEver</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/cf1be54cfe.js" crossorigin="anonymous"></script>
+
+  <!-- Style css -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <section class="coloured-section" id="title">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">FurEver</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Know More</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Free Trial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Real-Grass Pet Training Carpet.</h1>
+          <button type="button" onClick="document.getElementById('pricing').scrollIntoView();"
+            class="btn btn-dark btn-lg download-btn"><i class="fa-solid fa-dog"></i>
+            Free Trial</button>
+          <button type="button" onClick="document.getElementById('testimonials').scrollIntoView();"
+            class="btn btn-outline-light btn-lg download-btn"><i class="fa-solid fa-paw"></i> Know More</button>
+        </div>
+        <!-- <div class="col-lg-6"> -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide col-lg-6 " data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="title-img" src="images\pngwing.com.png" alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="title-img" src="images\pngwing.comi.png" alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="title-img" src="images\pngwing.com (1).png" alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="title-img" src="images\pngwing.com (2).png" alt="">
+            </div>
+            <div class="carousel-item">
+              <img class="title-img" src="images\pngwing.com (3).png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- <img class="title-img" src="images\pngwing.com.png" alt="iphone-mockup"> -->
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Know More -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="feature-box col-lg-3">
+          <i class="icon fa-4x fa-solid fa-circle-check"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="icon fa-4x fa-solid fa-paw"></i>
+          <h3 class="feature-title">Natural Urge.</h3>
+          <p>Mimics your dog's instinctual preference for grass.</p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="icon fa-4x fa-solid fa-heart"></i>
+          <h3 class="feature-title">Easy Maintenance.</h3>
+          <p>Replaceable grass pads for a hassle-free experience.</p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="icon fa-4x fa-solid fa-house"></i>
+          <h3 class="feature-title">Indoor Convenience.</h3>
+          <p>Ideal for apartments or homes without yards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="coloured-section" id="testimonials">
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="big-heading testimonial-heading">Why Real Grass?</h1>
+        <p class="testimonial-text">Is your pup tired of messy alternatives?<br> Embrace the future of dog potties with
+          us. Our mission is to provide a convenient, eco-friendly solution that brings joy to both dogs and their
+          owners. Say hello to a cleaner home and a happier dog – all thanks to the power of real grass. Sign Up for a
+          free trail now!</p>
+        <button type="button" onClick="document.getElementById('pricing').scrollIntoView();"
+          class="btn btn-dark btn-lg download-btn"><i class="fa-solid fa-dog"></i>
+          Free Trial</button>
+      </div>
+      <div class="col-lg-6">
+        <img class="testimonial-img " src="images\dog-potty-2.jpg" alt="iphone-mockup">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">Are you Interested?</h2>
+    <p>Sign Up for our Free trial!</p>
+
+    <div class="form-container row">
+      <div class="col-lg-6">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter Full Name" value="John">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Contact Number</label>
+            <input type="number" class="form-control" id="exampleInputNumber" aria-describedby="NumberHelp" placeholder="Enter Phone Number">
+          </div>
+          <button type="submit" class="btn btn-dark btn-lg download-btn submit-btn">Submit</button>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <img class="form-img" src="images\2-170.jpg" alt="">
+      </div>
+      </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="coloured-section" id="cta">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">FurEver</a>
+      <p>Contact: 	
+        <a class="contact" href="tel:+917838099486">+917838099486</a></p>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
