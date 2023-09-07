@@ -1,5 +1,5 @@
-let fname=document.getElementById('exampleInputName').value;
-console.log(fname);
+// let fname=document.getElementById('exampleInputName').value;
+// console.log(fname);
 
 // let femail=document.getElementById('exampleInputEmail').value;
 // console.log(femail);
