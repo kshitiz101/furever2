@@ -14,7 +14,8 @@ h6 {
 }
 
 p {
-    color: #8f8f8f;
+    color: rgb(97, 97, 97);
+    font-size: 1.1rem;
 }
 
 /* headings */
@@ -34,7 +35,8 @@ p {
 /* container */
 
 .container-fluid {
-    padding: 7% 15%;
+    /* padding: 7% 15%; */
+    padding: 2% 5%;
 }
 
 /* sections */
@@ -67,6 +69,16 @@ p {
 .nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat-White', sans-serif;
+    color: rgb(97, 97, 97);
+}
+
+.navbar-toggler{
+    background-color: rgb(97, 97, 97);
+}
+
+.navbar-toggler-icon{
+    background-color: rgb(97, 97, 97);
+    /* color: white; */
 }
 
 /* Download buttons */
@@ -123,7 +135,7 @@ p {
 }
 
 .testimonial-heading {
-    color: #ADE498;
+    color: rgb(97, 97, 97);
     padding: 7%;
 }
 
@@ -138,8 +150,17 @@ p {
 
 .testimonial-img {
     margin-top: 10%;
-    height: 50%;
+    width: 60%;
     border-radius: 20%;
+}
+
+.test{
+    position: relative;
+    height: fit-content;
+}
+
+.know-more-btn{
+    margin-bottom: 7%;
 }
 
 /* Pricing Section */
@@ -157,10 +178,11 @@ p {
 .form-img{
     width: 80%;
     border-radius: 20%;
+    margin-top: 10%;
 }
 
 form{
-    text-align: left;
+    height: fit-content;
 }
 
 .form-group{
@@ -192,6 +214,7 @@ form{
 .contact{
     font-family: "Ubuntu";
     font-weight: bold;
+    color: rgb(97, 97, 97);
 }
 
 @media (max-width: 991px) {
